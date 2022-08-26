@@ -1,0 +1,378 @@
+
+
+body{
+    padding: 0;
+    margin: 0 20px;
+    background:aquamarine;
+}
+/* -------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+
+}
+
+.navigation-bar {
+    position: static;
+    width: 100%;
+    height: 80px;
+    background-color: #002123;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.navtabs li {
+    list-style: none;
+    float: right;
+    padding: 0 15px;
+    color: white;
+}
+
+.navtabs li a {
+    text-decoration: none;
+    color: #f8edeb;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.navtabs li a:hover {
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+/* -------------------------------------------------------------- */
+
+.section-01 {
+    margin-top: 20px;
+
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    background-image: url(../Assets/Pics/Activity/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-01 h1 {
+    color: #ffffff;
+    margin: 70px;
+    font-size: 72px;
+
+}
+
+.welcome:hover {
+    transform: translateY(-3px) scale(1.1);
+    transition: all 0.5s;
+}
+
+/* ---------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------- */
+
+.section-02 {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sides {
+    flex: 1;
+    /* border: 1px solid red; */
+    margin: 1rem 0.5rem;
+
+    /* margin: 1rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.set-00 {
+    flex: 1;
+
+
+
+    /* border: 1px solid green; */
+}
+
+
+.section-Activity {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sides {
+    flex: 1;
+    /* border: 1px solid red; */
+    margin: 1rem 0.5rem;
+
+    /* margin: 1rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.set-00 {
+    flex: 1;
+
+
+
+    /* border: 1px solid green; */
+}
+
+
+
+
+
+
+
+
+
+.set-00 h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.discription {
+    font-size:23px;
+}
+
+.image-0 {
+    background-image: url(../Assets/Pics/Beaches/pasikuda.jpg);
+    background-size: cover;
+}
+
+.image-1 {
+    background-image: url(../Assets/Pics/Beaches/unawatuna.jpg);
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url(../Assets/Pics/Beaches/mirissa.jpg);
+    background-size: cover;
+}
+
+.image-A0 {
+    background-image: url(../Assets/Pics/Activity/A0coralReef.jpg);
+    background-size: cover;
+}
+
+.image-A1 {
+    background-image: url(../Assets/Pics/Activity/A1scudaDiving.jpeg);
+    background-size: cover;
+}
+
+.image-A2 {
+    background-image: url(../Assets/Pics/Activity/A2whaleWatching.jpg);
+    background-size: cover;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.section-29 {
+    width: 100%;
+    height: 300px;
+
+}
+
+
+.section-29 table {
+    border: 1px solid #b3adad;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.section-29 table th {
+    border: 1px solid #b3adad;
+    padding: 5px;
+    background: #f0f0f0;
+    color: #313030;
+}
+
+.section-29 table td {
+    border: 1px solid #b3adad;
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    color: #313030;
+}
+
+/* ------------------------------------------- */
+
+.section-03 {
+    width: 100%;
+    height: 200px;
+    background: #002123;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-logs li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.social-logs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-logs li a img:hover {
+    transform: translateY(-3px) scale(1.1);
+    filter: invert(100%);
+    transition: all 500ms;
+}
+
+.tags {
+    color: #f8edeb;
+}
+
+/*--------------------------Purchase ticket------------------------------*/
+.card1{
+    text-align: center;
+    background-color: #e0f376;
+    margin: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#frmPurchase{
+    background-color: aqua;
+    border-radius: 10px;   
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=number] {
+    width: 25%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  select{
+    width: 25%;
+    padding: 10px;
+    margin: 8px 0;
+    display:inline-flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  #duration{
+    margin-left: 48px;
+  }
+
+  input[type=button] {    
+    background-color: #066e6e;
+    color: white;
+    width: 15%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  input[type=button]:hover {
+    opacity: 0.7;
+  }
+  #addOrbtn,#placeOrder{
+    background-color: rgb(218, 65, 19); /*072e30*/
+    width: 40%;
+  }
+
+  /*--------------------------Purchase ticket End------------------------------*/
+
+
+
+/*mobile responsive*/
+
+  @media only screen and (max-width: 950px) {
+
+    input[type=button] {
+        width: 40%;
+        padding: 10px;
+               
+      }
+
+      .section-01 {
+        margin-top: 15px;
+        height: 400px;
+        width: auto;
+        
+    }
+    .section-Activity {
+        width: 100%;
+        height: 500px;
+        margin-top: 850px;
+           
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+   /* body{
+        margin: 0;
+    }*/
+    .card1{
+        margin-top: 900px;
+    }
+
+  }

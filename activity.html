@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link rel="icon" href="Assets/chameleon.png">
+    <link rel="stylesheet" href="css/activity.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation-bar">
+            <div class="logo"><img src="Assets/chameleon.png" alt=""></div>
+            <ul class="navtabs">
+                <li><a href="purchaseAndDonate.html">Purchase & Donate</a></li>
+                <li><a href="polonnaruwaD2.html">Polonnaruwa</a></li>
+                <li><a href="kandyD1.html">Kandy</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="beaches.html">Beaches</a></li>
+                <li><a href="wildLife.html">Wildlife Attractions</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div class="section-01">
+            <h1 class="welcome">Activity</h1>
+        </div>
+
+        <hr>
+
+        <div class="section-Activity">
+            <div class="sides">
+                <div class="set-00 image-A0">
+
+                </div>
+                <div class="set-00">
+                    <h2>Coral Reef Hikkaduwa</h2>
+                    <p class="discription">
+
+                        Hikkaduwa National Park is one of Sri Lanka's three maritime national parks. A bordering coral
+                        reef with a high degree of biodiversity can be found in the national park. On May 18, 1979, the
+                        region was designated as a wildlife sanctuary, and on August 14, 1988, it was upgraded to a
+                        nature reserve with expanded land area. In the next 25 years, the number of visitors will
+                        increase, causing the coral reef to deteriorate. On September 19, 2002, the reef was designated
+                        as a national park in order to mitigate the effects on the ecology.
+
+                        <br><br>
+                        Hikkaduwa coral gardens boat trip prices :<br>
+                        For Foreign: Rs 1,750.<br>
+                        For Sri Lankan: Rs 750.<br>
+                        For Student: Rs 650.<br>
+                        <br>
+
+                        <br>
+
+                        For more Information: <a
+                            href="https://www.tripadvisor.com/Attraction_Review-g304134-d552522-Reviews-Coral_Sanctuary-Hikkaduwa_Galle_District_Southern_Province.html">Read
+                            More</a>
+
+
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="sides">
+                <div class="set-00 image-A1">
+
+                </div>
+                <div class="set-00">
+                    <h2>Scuda Diving</h2>
+                    <p class="discription">
+
+                        Sri Lanka has plenty of scuba diving and snorkelling spots. If you’ve never done any diving,
+                        there are PADI diving schools that can help you master the art of scuba diving. For more
+                        experienced divers, equipment is available for rent at all the diving schools. From coral reefs
+                        and shipwrecks, check out the best diving and snorkelling spots in Sri Lanka.
+
+
+                        <br><br>
+
+                        Scuba diving in Mirissa is indeed a wonderful experience.<br>
+                        Price: Starting from Rs 2800 without
+                        equipment per person for certified divers.<br>
+
+                        For more Information: <a
+                            href="https://www.talesofceylon.com/experiences/diving-and-snorkelling/the-best-diving-and-snorkeling-sites-in-sri-lanka/">Read
+                            More</a>
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="sides">
+                <div class="set-00 image-A2"></div>
+                <div class="set-00">
+                    <h2>Whale Watching</h2>
+                    <p class="discription">
+                        From November to April, whales congregate in the waters off the coast of south-western Sri
+                        Lanka. Secure your spot on a whale-watching cruise from Mirissa with this Hikkaduwa excursion,
+                        and save valuable holiday time. After an air-conditioned ride to the pier, head out to sea to
+                        spot blue, fin, and sperm whales, as well as dolphins, while your boat maintains a safe distance
+                        and a naturalist provides information. Transfers to or from your Hikkaduwa hotel are included.
+
+                        <br><br>
+                        <br>
+                        Prices for ethical whale watching boat tours in Mirissa start from around $21.50 USD (4,000
+                        rupees) per person. There is also an additional charge of $18.50 USD (3,460 rupees) per person
+                        for government fees and taxes.
+
+                        For more Information: <a
+                            href="https://www.tripadvisor.com/Attractions-g304134-Activities-c61-t188-Hikkaduwa_Galle_District_Southern_Province.html">Read
+                            More</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+                                     <!--Ticket purchace part-->
+    <section>
+        <div class="card1">
+            <h1 style="font-size: 30px;">Tickets Purchase</h1>
+          <form id="frmPurchase">
+<br>
+            Ticket Category :
+            <select id="txtTicket" name="txtTicket" onchange = "calculateCost();">
+                <option value="">--Select Here--</option>
+                <option value="0">Foreigner Adult Pass</option>
+                <option value="1">Foreigner Child Pass (aged 3 to 12 years)</option>
+                <option value="2">Local Adult Pass</option>
+                <option value="3">Local Child Pass (aged 3 to 12 years)</option>
+                <option value="4">Annual Pass -  Local </option>
+                <option value="5">Annual Pass - Foreign</option>
+            </select>
+            <br/>
+            <br/>
+
+            <div id="hideDuraExtras" >
+                Duration : 
+                <select id="duration" name="duration" onchange="calculateCost();">
+                    <option value="">--Select Here--</option>
+                    <option value="0">3 Hours</option>
+                    <option value="1">1/2 Day</option>
+                    <option value="2">Full Day</option>
+                    
+                </select>
+                <br/>
+                <br/>
+    
+            </div>
+            
+            Number of Passes : 
+            <input type="number" min="0" size="5" id="number" name="number" placeholder="Number of required passes" onblur="calculateCost();" >
+
+            <br/>
+            <br/>
+
+            
+        
+              
+
+            <lable for ="optional">
+                <input type="checkbox" id="optional" class="option-input radio" onclick="extras();">
+                Extras : 
+                </lable>
+                <div id="divExtras" style="display: none;">
+                    
+            Food Token :
+            <input type="number" min="0" size="5" id="foodTokens" name="foodTokens" onblur="calculateCost();">
+        </div>
+    
+            <br/>
+            <br/>
+           <div class="spanstyl"> 
+            Cost : LKR <span id="spCost">0.00</span>
+            </div>
+            <br/>
+            <br/>
+
+            <p> Note: For children under age 3, entrance is free.</p>
+    
+            <input type="button" id="addOrbtn" value="Add to Order" onclick="addToOrder();">
+            
+            <div class="alert">
+            <input type="button" value="Add to Favourites" id="addFavourite" name="addFavourite">
+          </div>
+    
+            <input type="button" id="retrieveFavourite" name="retrieveFavourite" value="Order Favourites"><br>
+            <input type="button" value="Check Loyalty" onclick="showLoyaltyPoints()">
+
+           
+    
+       </form>  
+       <div id="divAddOrder" style="display: none;">
+        <hr />
+        <h1>Overall Order</h1>
+        <div class="test">
+        <table border="2" width="75%" align ="center" id="tbl_order">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Number of Passes</th>
+                    <th>Duration</th>
+                    <th>Food Tokens</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody_update"></tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">Grand Total</th>
+                    <th colspan="1" id="GrandTot">0.00</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+          <input type="button" value="Place Order" id="placeOrder" onclick="placeOrder();">
+       </div>
+        </div>
+        </section>
+
+                        <!--Ticket purchace part End-->
+
+
+
+
+
+
+        <div class="section-29">
+            <!-- table -->
+
+
+        </div>
+
+        <div class="section-03">
+            <!-- footer  -->
+
+            <ul class="social-logs">
+                <li><a href=""> <img src="Assets/Socail Icons/facebook.png" alt="" width="50px" height="50px"></a></li>
+                <li><a href=""> <img src="Assets/Socail Icons/instagram.png" alt="" width="50px" height="50px"></a></li>
+                <li><a href=""> <img src="Assets/Socail Icons/youtube.png" alt="" width="50px" height="50px"></a></li>
+            </ul>
+
+            <div class="tags">Terms and Conditions Applies</div>
+            <div class="tags">All Rigths Receved 2022</div>
+            <div class="tags">P.P.D Perera</div>
+
+        </div>
+    </div>
+
+   
+    <script src="scripts/activity.js"></script> 
+</body>
+
+</html>

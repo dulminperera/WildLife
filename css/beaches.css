@@ -1,0 +1,223 @@
+
+
+body{
+    padding: 0;
+    margin: 0 20px;
+    background:aquamarine;
+}
+/* -------------------------------------------------------------- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: auto;
+
+}
+
+.navigation-bar {
+    position: static;
+    width: 100%;
+    height: 80px;
+    background-color: #002123;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.navtabs li {
+    list-style: none;
+    float: right;
+    padding: 0 15px;
+    color: white;
+}
+
+.navtabs li a {
+    text-decoration: none;
+    color: #f8edeb;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.navtabs li a:hover {
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+/* -------------------------------------------------------------- */
+
+.section-01 {
+    margin-top: 20px;
+
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    background-image: url(../Assets/Pics/Beaches/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-01 h1 {
+    color: #000000;
+    margin: 70px;
+    font-size: 72px;
+
+}
+
+.welcome:hover {
+    transform: translateY(-3px) scale(1.1);
+    transition: all 0.5s;
+}
+
+/* ---------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------- */
+
+.section-02 {
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sides {
+    flex: 1;
+    /* border: 1px solid red; */
+    margin: 1rem 0.5rem;
+
+    /* margin: 1rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.set-00 {
+    flex: 1;
+
+
+
+    /* border: 1px solid green; */
+}
+
+.set-00 h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.discription {
+    font-size:23px;
+}
+
+.image-0 {
+    background-image: url(../Assets/Pics/Beaches/pasikuda.jpg);
+    background-size: cover;
+}
+
+.image-1 {
+    background-image: url(../Assets/Pics/Beaches/unawatuna.jpg);
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url(../Assets/Pics/Beaches/mirissa.jpg);
+    background-size: cover;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.section-29 {
+    width: 100%;
+    height: 300px;
+
+}
+
+
+.section-29 table {
+    border: 1px solid #b3adad;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.section-29 table th {
+    border: 1px solid #b3adad;
+    padding: 5px;
+    background: #f0f0f0;
+    color: #313030;
+}
+
+.section-29 table td {
+    border: 1px solid #b3adad;
+    text-align: center;
+    padding: 5px;
+    background: #ffffff;
+    color: #313030;
+}
+
+/* ------------------------------------------- */
+
+.section-03 {
+    width: 100%;
+    height: 200px;
+    background: #002123;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-logs li {
+    list-style: none;
+    float: right;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.social-logs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-logs li a img:hover {
+    transform: translateY(-3px) scale(1.1);
+    filter: invert(100%);
+    transition: all 500ms;
+}
+
+.tags {
+    color: #f8edeb;
+}
